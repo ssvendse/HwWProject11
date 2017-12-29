@@ -19,6 +19,7 @@
 		028DD0241FF5E54E00FF7368 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028DD0231FF5E54E00FF7368 /* InterfaceController.swift */; };
 		028DD0261FF5E54E00FF7368 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028DD0251FF5E54E00FF7368 /* ExtensionDelegate.swift */; };
 		028DD0281FF5E54E00FF7368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028DD0271FF5E54E00FF7368 /* Assets.xcassets */; };
+		028DD0381FF5E67E00FF7368 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028DD0371FF5E67E00FF7368 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		028DD0251FF5E54E00FF7368 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		028DD0271FF5E54E00FF7368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		028DD0291FF5E54E00FF7368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028DD0371FF5E67E00FF7368 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				028DD0231FF5E54E00FF7368 /* InterfaceController.swift */,
+				028DD0371FF5E67E00FF7368 /* GameScene.swift */,
 				028DD0251FF5E54E00FF7368 /* ExtensionDelegate.swift */,
 				028DD0271FF5E54E00FF7368 /* Assets.xcassets */,
 				028DD0291FF5E54E00FF7368 /* Info.plist */,
@@ -298,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028DD0381FF5E67E00FF7368 /* GameScene.swift in Sources */,
 				028DD0261FF5E54E00FF7368 /* ExtensionDelegate.swift in Sources */,
 				028DD0241FF5E54E00FF7368 /* InterfaceController.swift in Sources */,
 			);
